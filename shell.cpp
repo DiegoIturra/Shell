@@ -43,8 +43,8 @@ int main(){
 	/*realcionado con archivo*/
 	ofstream file; //archivo de tipo de escritura
 	string nombreArchivo = "mishell.log";
-    crearArchivo(nombreArchivo, file);
-    escribirComandos(nombreArchivo, file, getDate(), "Inicio sesion Shell");
+    	crearArchivo(nombreArchivo, file);
+    	escribirComandos(nombreArchivo, file, getDate(), "Inicio sesion Shell");
 
 	map<string,string> infoComando;
 	map<int, string> ejecComando;
